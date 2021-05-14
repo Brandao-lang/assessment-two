@@ -16,6 +16,17 @@
 
 //CODE HERE
 
+me = {
+  firstName: "Elijah",
+  state: "New Jersey",
+  age: 24,
+  greeter: function () {
+    return `Hello! My name is ${this.firstName} and I live in ${this.state}`
+  } 
+}
+
+console.log(me.greeter())
+
 
 
 
@@ -45,3 +56,19 @@
 */
 
 //CODE HERE
+
+function carFactory (make, model, year) {
+  carDetails = {
+    make: make,
+    model: model,
+    year: year
+  }
+  if (carDetails.year > 2018) {
+    carDetails.isNew = true
+  } else {
+    carDetails.isNew = false
+  }
+  return carDetails
+}
+
+console.log(carFactory('toyota', 'camry', 2020))

@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a version control tool that allows coders to keep track of different versions of their code. These versions are pushed to git's github website where all saved versions of the code can be seen at once "
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is where code is pushed to from git. Whereas git is for saving and pushing versions of code from your local machine, github is where multiple coders can collaborate to see everyone's versions of the same code. This is where changes to a collaborative project are evaluated and commited"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -27,6 +31,7 @@
     string of the actual command (what you type into your terminal).
 */
 
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create an object called 'init' with 'description' and 'code' properties 
@@ -34,6 +39,11 @@
 */
 
 //CODE HERE
+
+let init = {
+    description: "Initiliazes a file to act as a repository to begin commiting and pushing code to github",
+    code: "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -43,6 +53,11 @@
 
 //CODE HERE
 
+let clone = {
+    description: "clones an established repository into a new file",
+    code: "git clone"
+}
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +65,11 @@
 */
 
 //CODE HERE
+
+let status = {
+    description: "shows what files in the repository have been modified, or if any changes have been made. Useful for seeing if your changes have been saved",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +79,12 @@
 
 //CODE HERE
 
+let add = {
+    description: "the git add command makes it so that your changes are being tracked within the repository, it is a necessary step before commiting all of the changes",
+    code: "git add . for all fies or git add fileName.js for a specific file"
+}
+
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,6 +92,12 @@
 */
 
 //CODE HERE
+
+let commit = {
+    description: "git commit is a way to save all of the changes that were being tracked with git add. This is a necessary step before pushing",
+    code: "git commit -m 'commit message'"
+}
+
 
 
 //////////////////PROBLEM 8////////////////////
@@ -75,3 +107,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: "after tracking and saving all changes with git add and commit you can use the push command to send your files as a stored version on github",
+    code: "git push origin master (or main)"
+}

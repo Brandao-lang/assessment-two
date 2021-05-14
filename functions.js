@@ -30,6 +30,23 @@ console.log(sum(x,y))
 
 //CODE HERE
 
+function greaterThanFive (number) {
+  let = isGreater = false
+
+  if(number > 5) {
+    isGreater = true
+    return isGreater
+  } else if (number < 5) {
+    isGreater = false
+    return isGreater
+  } else {
+    isGreater = false
+    return isGreater
+  }
+}
+
+console.log(greaterThanFive(4))
+
 //////////////////PROBLEM 3////////////////////
 /*
   Create a function called 'findZWords' that takes in one parameter, 'word'. 
@@ -40,6 +57,16 @@ console.log(sum(x,y))
 
 //CODE HERE
 
+function findZWords (word) {
+  if(word[0] === "Z") {
+    return "This name begins with a Z"
+  } else {
+    return "This name does not begin with a Z"
+  }
+}
+
+console.log(findZWords("Zack"))
+
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -48,3 +75,9 @@ console.log(sum(x,y))
 */
 
 //CODE HERE
+
+function iLove (name, love) {
+  console.log(`${name} loves ${love}`)
+}
+
+iLove("Elijah", "music")

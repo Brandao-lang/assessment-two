@@ -27,9 +27,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-middleNums = []
-middleNums.push(numbers[1,2,3])
-console.log(middleNums) //not finished
+middleNums = numbers.splice(1,3)
+console.log(middleNums)
 
 
 

@@ -11,7 +11,8 @@
 
 //CODE HERE
 
-let gitDefinition = "Git is a version control tool that allows coders to keep track of different versions of their code. These versions are pushed to git's github website where all saved versions of the code can be seen at once "
+let gitDefinition = "Git is a version control tool that allows coders to keep track of different versions of their code." + 
+" These versions are pushed to git's github website where all saved versions of the code can be seen at once "
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -21,7 +22,9 @@ let gitDefinition = "Git is a version control tool that allows coders to keep tr
 
 //CODE HERE
 
-let gitHubDefinition = "GitHub is where code is pushed to from git. Whereas git is for saving and pushing versions of code from your local machine, github is where multiple coders can collaborate to see everyone's versions of the same code. This is where changes to a collaborative project are evaluated and commited"
+let gitHubDefinition = "GitHub is where code is pushed to from git. Whereas git is for saving and pushing versions of code from your local machine," + 
+" github is where multiple coders can collaborate to see everyone's versions of the same code." +
+" This is where changes to a collaborative project are evaluated and commited"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*

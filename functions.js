@@ -7,6 +7,18 @@
 
 //CODE HERE
 
+function sum (num1, num2) {
+  let add = num1 + num2
+  return add
+}
+
+let x = 2
+let y = 5
+
+console.log(sum(x,y))
+
+
+
 
 //////////////////PROBLEM 2////////////////////
 /*
